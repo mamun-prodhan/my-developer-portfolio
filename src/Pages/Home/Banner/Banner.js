@@ -14,8 +14,10 @@ const Banner = () => {
                     <button className="btn btn-primary"><a href="https://drive.google.com/file/d/12sl5CZ-FzwTwsE2exIKtvgyKit44zVgX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
                     <h3 className='text-2xl mt-4 mb-4 font-bold'>Find Me On</h3>
                     <div className='flex'>
-                    <FaFacebookSquare className='w-8 h-8 mr-2'></FaFacebookSquare> <FaGithubSquare className='w-8 h-8 mr-2'></FaGithubSquare> <FaLinkedin className='w-8 h-8 mr-2'></FaLinkedin>
-                    </div>
+                    <a href="https://www.facebook.com/mamunpr9/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare className='w-8 h-8 mr-2'/></a>
+                    <a href="https://github.com/mamun-prodhan" target="_blank" rel="noopener noreferrer"><FaGithubSquare className='w-8 h-8 mr-2'/></a>
+                    <a href="https://www.linkedin.com/in/mamunprodhan/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='w-8 h-8'/></a>
+                </div>
                 </div>
             </div>
         </div>
