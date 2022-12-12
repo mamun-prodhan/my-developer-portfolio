@@ -11,7 +11,7 @@ const Banner = () => {
                     <h1 className="text-5xl font-bold">Hi, I'm Mamun Prodhan</h1>
                     <h2 className='text-3xl font-semibold'>a Full Stack Web Developer</h2>
                     <p className="py-6 text-justify">I am a full stack web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong understanding of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appearing.</p>
-                    <button className="btn btn-primary">Download Resume</button>
+                    <button className="btn btn-primary"><a href="https://drive.google.com/file/d/12sl5CZ-FzwTwsE2exIKtvgyKit44zVgX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
                     <h3 className='text-2xl mt-4 mb-4 font-bold'>Find Me On</h3>
                     <div className='flex'>
                     <FaFacebookSquare className='w-8 h-8 mr-2'></FaFacebookSquare> <FaGithubSquare className='w-8 h-8 mr-2'></FaGithubSquare> <FaLinkedin className='w-8 h-8 mr-2'></FaLinkedin>
