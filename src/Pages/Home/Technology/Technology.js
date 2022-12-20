@@ -17,7 +17,7 @@ import image14 from '../../../assets/img/giphy.gif';
 
 const Technology = () => {
     return (
-        <div className='hero bg-base-200 mt-16 mb-16 p-8 sm:text-center md:text-center lg:text-left'>
+        <div className='hero bg-base-200 mt-16 mb-16 p-8 sm:text-center md:text-center lg:text-left rounded-xl'>
             <div className='hero-content flex-col lg:flex-row justify-center items-center'>
                 <div>
                     <h1 className='text-5xl font-bold mb-6'>Fully Compatible With</h1>
