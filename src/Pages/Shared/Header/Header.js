@@ -29,7 +29,7 @@ const Header = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end hidden lg:inline-block">
                 <a  href='https://drive.google.com/file/d/12sl5CZ-FzwTwsE2exIKtvgyKit44zVgX/view?usp=sharing' className="btn">Download Resume</a>
             </div>
         </div>

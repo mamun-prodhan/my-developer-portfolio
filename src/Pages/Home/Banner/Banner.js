@@ -4,12 +4,12 @@ import image from '../../../assets/myimage.jpg'
 
 const Banner = () => {
     return (
-        <div className="hero bg-base-200 mt-16 mb-16 p-8 rounded-xl">
-            <div className="hero-content flex-col lg:flex-row">
-                <img src={image} alt="Myimage" className="max-w-sm rounded-lg shadow-2xl" />
-                <div className='ml-10'>
-                    <h1 className="text-5xl font-bold">Hi, I'm Mamun Prodhan</h1>
-                    <h2 className='text-3xl font-semibold'>a Full Stack Web Developer</h2>
+        <div className="hero bg-base-200 my-8 md:my-10 lg:my-16 md:p-8 rounded-xl">
+            <div className="hero-content flex-col lg:gap-10 lg:flex-row">
+                <img src={image} alt="Myimage" className=" mb-8 lg:mb-0 rounded-lg shadow-2xl" />
+                <div className=''>
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Hi, I'm Mamun Prodhan</h1>
+                    <h2 className='text-2xl md:text-3xl font-semibold'>Full Stack Web Developer</h2>
                     <p className="py-6 text-justify">I am a full stack web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong understanding of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appearing.</p>
                     <button className="btn btn-primary"><a href="https://drive.google.com/file/d/12sl5CZ-FzwTwsE2exIKtvgyKit44zVgX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
                     <h3 className='text-2xl mt-4 mb-4 font-bold'>Find Me On</h3>
